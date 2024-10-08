@@ -282,7 +282,7 @@ input::placeholder{
 }
 .product{
     max-width: 25%;
-    height: 90%;
+    height: 92%;
     box-shadow: 1px 6px 6px rgba(0, 0, 0, 0.078);
     text-align: center;
     background-color: #f1f1f1;
@@ -294,9 +294,31 @@ input::placeholder{
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
 }
+/*********** price styling **********************/
+.price-cart{
+    width: 100%;
+    display: flex;
+    padding: 0 6px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.price-cart button{
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--hover-color);
+    color: var(--text-color);
+}
+
+.price-cart button:hover{
+    background-color: darkred;
+    transition: 0.5s ease;
+}
 .name_pricing{
     background-color: #fff;
-    height: 4rem;
+    height: 4.5rem;
 }
 .name_pricing p, h4{
     text-align: left;
